@@ -52,3 +52,8 @@ export default tseslint.config({
   },
 })
 ```
+
+## Problem
+
+https://github.com/storybookjs/storybook/issues/20876#issuecomment-1542668305
+- If storybook is not running, remove `.pnp.js` from your home directory
