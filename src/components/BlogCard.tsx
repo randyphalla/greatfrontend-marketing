@@ -3,7 +3,7 @@ import './BlogCard.css';
 type BlogCardProps = {
   imgSrc: string;
   imgAlt: string;
-  pillText: string;
+  badgeText: string;
   title: string;
   body: string;
   linkTitle: string;
@@ -11,7 +11,7 @@ type BlogCardProps = {
 };
 
 const BlogCard = (props: BlogCardProps) => {
-  const { imgSrc, imgAlt, pillText, title, body, linkTitle, linkHref } = props;
+  const { imgSrc, imgAlt, badgeText, title, body, linkTitle, linkHref } = props;
 
   return (
     <div className="w-[340px]">
@@ -22,10 +22,10 @@ const BlogCard = (props: BlogCardProps) => {
       />
       <div className="px-[16px] py-[24px] bg-white rounded-b-lg">
         <div className="w-min px-2 py-[1px] bg-green-50 border border-green-200 rounded-full">
-          <p className="bg-green-50 text-sm font-normal text-green-700">{pillText}</p>
+          <p className="bg-green-50 text-sm font-normal text-green-700">{badgeText}</p>
         </div>
         <h2 className="mt-2 text-lg font-semibold">{title}</h2>
-        <p className="mt-3 text-base font-medium text-neutral-600">{body}</p>
+        <p className="mt-3 text-base font-medium text-neutral-600 line-clamp-2">{body}</p>
         <a
           className="flex items-center mt-6 text-base font-medium text-indigo-700"
           href={linkHref}

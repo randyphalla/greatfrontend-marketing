@@ -28,7 +28,7 @@ export const Primary: Story = {
   args: {
     imgSrc: BlogImage,
     imgAlt: 'A cozy living room featuring a gray couch, a decorative rug, and a stylish coffee table.',
-    pillText: 'Interior',
+    badgeText: 'Interior',
     title: 'Top 5 Living Room Inspirations',
     body: 'Curated vibrants colors for your living, make it pop & calm in the same time.',
     linkTitle: 'Read more',
