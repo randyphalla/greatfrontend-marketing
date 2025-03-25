@@ -14,7 +14,7 @@ const BlogCard = (props: BlogCardProps) => {
   const { imgSrc, imgAlt, badgeText, title, body, linkTitle, linkHref } = props;
 
   return (
-    <div className="w-[340px]">
+    <div className="w-[340px] my-drop-shadow">
       <img
         className="w-full h-[288px] rounded-t-lg object-cover"
         src={imgSrc}
