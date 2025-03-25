@@ -1,38 +1,37 @@
 import './BlogCard.css';
-import BlogImage from '../assets/images/spacejoy-YqFz7UMm8qE-unsplash.jpg';
 
-// type BlogCardProps = {
-//   imgSrc: string;
-//   imgAlt: string;
-//   title: string;
-//   body: string;
-//   linkTitle: string;
-//   linkHref: string;
-// };
+type BlogCardProps = {
+  imgSrc: string;
+  imgAlt: string;
+  pillText: string;
+  title: string;
+  body: string;
+  linkTitle: string;
+  linkHref: string;
+};
 
-// props: BlogCardProps
-const BlogCard = () => {
-  // const { imgSrc, imgAlt, title, body, linkTitle, linkHref } = props;
+const BlogCard = (props: BlogCardProps) => {
+  const { imgSrc, imgAlt, pillText, title, body, linkTitle, linkHref } = props;
 
   return (
     <div className="w-[340px]">
       <img
         className="w-full h-[288px] rounded-t-lg object-cover"
-        src={BlogImage}
-        alt="Blog Image"
+        src={imgSrc}
+        alt={imgAlt}
       />
       <div className="px-[16px] py-[24px] bg-white rounded-b-lg">
         <div className="w-min px-2 py-[1px] bg-green-50 border border-green-200 rounded-full">
-          <p className="bg-green-50 text-sm font-normal text-green-700">Interior</p>
+          <p className="bg-green-50 text-sm font-normal text-green-700">{pillText}</p>
         </div>
-        <h2 className="mt-2 text-lg font-semibold">Top 5 Living Room Inspirations</h2>
-        <p className="mt-3 text-base font-medium text-neutral-600">Curated vibrants colors for your living, make it pop & calm in the same time.</p>
+        <h2 className="mt-2 text-lg font-semibold">{title}</h2>
+        <p className="mt-3 text-base font-medium text-neutral-600">{body}</p>
         <a
           className="flex items-center mt-6 text-base font-medium text-indigo-700"
-          href="#"
+          href={linkHref}
           target="_blank"
         >
-          <span className="px-[2px]">Read more</span>
+          <span className="px-[2px]">{linkTitle}</span>
           <svg
             className="ml-2"
             width="20"

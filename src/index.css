@@ -7,3 +7,14 @@ body {
   max-height: 100%;
   background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
 }
+
+.sb-show-main {
+  padding-top: 80px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#storybook-root {
+  display: flex;
+  justify-content: center;
+}
