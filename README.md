@@ -11,7 +11,17 @@
 - `yarn build-storybook` | build storybook
 
 ## Hosting
-- `wip` | `wip`
+
+- https://greatfrontend-marketing.vercel.app/
+
+
+## Components
+- [Testimonial Card](https://github.com/randyphalla/greatfrontend-testimonial-card)
+- [Blog Card](https://greatfrontend-marketing.vercel.app/?path=/story/marketing-blog-card--primary)
+- [Profile Card]() - WIP
+
+## Icons
+- https://remixicon.com/icon/github-fill
 
 ## Problem
 

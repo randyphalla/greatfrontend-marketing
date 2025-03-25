@@ -4,7 +4,7 @@ import BlogImage from '../assets/images/spacejoy-YqFz7UMm8qE-unsplash.jpg';
 
 // https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Marketing/Blog Card',
+  title: 'Components/Blog Card',
   component: BlogCard,
   parameters: {
     // https://storybook.js.org/docs/configure/story-layout
@@ -21,10 +21,8 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof BlogCard>
 
-
-
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary: Story = {
+export const Default: Story = {
   args: {
     imgSrc: BlogImage,
     imgAlt: 'A cozy living room featuring a gray couch, a decorative rug, and a stylish coffee table.',
