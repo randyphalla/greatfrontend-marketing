@@ -4,10 +4,7 @@ import ProfileCard from "../components/ProfileCard";
 const meta = {
   title: 'Components/Profile Card',
   component: ProfileCard,
-  parameters: {},
-  tags: [],
-  argTypes: {},
-  args: {},
+  decorators: [(story) => <div style={{ marginTop: '200px' }}>{story()}</div>],
 } satisfies Meta<typeof ProfileCard>;
 
 export default meta;

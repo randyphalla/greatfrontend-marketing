@@ -2,10 +2,10 @@ import BlogCard from "../components/BlogCard";
 import type { Meta, StoryObj } from '@storybook/react';
 import BlogImage from '../assets/images/spacejoy-YqFz7UMm8qE-unsplash.jpg';
 
-// https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
   title: 'Components/Blog Card',
   component: BlogCard,
+  decorators: [(story) => <div style={{ marginTop: '120px' }}>{story()}</div>],
   parameters: {
     // https://storybook.js.org/docs/configure/story-layout
     // layout: 'centered',
@@ -21,7 +21,6 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof BlogCard>
 
-// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Default: Story = {
   args: {
     imgSrc: BlogImage,
