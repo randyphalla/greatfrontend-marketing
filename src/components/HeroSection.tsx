@@ -1,24 +1,11 @@
 import HeroSectionImage from '../assets/images/prism.png';
 
-// interface HeroSectionProps {
-//   title?: string;
-//   body?: string;
-//   imgSrc?: string;
-//   imgAlt?: string;
-//   buttonOneText?: string;
-//   buttonOneOnClick?: () => void;
-//   buttonTwoText?: string;
-//   buttonTwoOnClick?: () => void;
-// }
-
-// props: HeroSectionProps
-// const { title, body, imgSrc, imgAlt, buttonOneText, buttonOneOnClick, buttonTwoText, buttonTwoOnClick } = props;
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-[1408px] py-14 tablet:py-[27px] desktop:py-[9px] bg-white my-drop-shadow rounded-sm tablet:rounded-md">
+    <section className="w-full max-w-[1408px] py-14 tablet:py-[27px] desktop:py-[9px] hero-section hero-section--drop-shadow rounded-sm tablet:rounded-md">
       <h2 className="hidden">Hero Section</h2>
       {/* Container */}
-      <div className="w-full px-3 tablet:px-4 py-12 tablet:py-16 desktop:py-24 desktop:px-24 desktop:flex desktop:flex-row desktop:justify-between desktop:items-center">
+      <div className="w-full px-3 tablet:px-4 py-12 tablet:py-16 desktop:py-24 desktop:px-24 desktop:flex desktop:flex-row desktop:justify-between desktop:items-center bg-white">
         {/* Top (mobile/tablet) and left side (Desktop) container */}
         <div className="mb-12 tablet:mb-8 desktop:mb-0 desktop:mr-8 desktop:max-w-[488px]">
           <h3 className="mb-4 tablet:mb-6 font-semibold text-4xl tablet:text-5xl desktop:text-6xl text-neutral-900">Well crafted abstract images</h3>

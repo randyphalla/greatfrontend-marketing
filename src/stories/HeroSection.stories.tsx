@@ -4,7 +4,7 @@ import HeroSection from "../components/HeroSection";
 const meta = {
   title: 'Components/Hero Section',
   component: HeroSection,
-  decorators: [(story) => <div style={{ marginTop: '200px' }}>{story()}</div>],
+  decorators: [(story) => <div style={{ marginTop: '16px' }}>{story()}</div>],
   tags: ['autodocs'],
 } satisfies Meta<typeof HeroSection>;
 

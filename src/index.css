@@ -35,3 +35,27 @@ body {
 .my-drop-shadow {
   filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.10)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.06));
 }
+
+.hero-section {
+  background-color: #ffffff;
+}
+
+.hero-section--drop-shadow {
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section--drop-shadow {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.06), 0px 4px 6px -1px rgb(0 0 0 / 0.10);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    background-image: linear-gradient(to bottom, #f9fafb, #edf0f3);
+  }
+
+  .hero-section--drop-shadow {
+    box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 0.05), 0px 10px 15px -3px rgb(0 0 0 / 0.10);
+  }
+}
