@@ -4,6 +4,13 @@
 @theme {
   /* Outline */
   --color-royal-blue: rgba(68, 76, 231, 0.12);
+
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  /* 768px */
+  --breakpoint-tablet: 48rem;
+  /* 1440px */
+  --breakpoint-desktop: 90rem;
 }
 
 body {
@@ -11,6 +18,7 @@ body {
   min-height: 100vh;
   max-height: 100%;
   background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
+  font-family: "Noto Sans", sans-serif, Arial, "Helvetica Neue", Helvetica;
 }
 
 .sb-show-main {

@@ -776,6 +776,17 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/addon-interactions@^8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-8.6.10.tgz#9a87bbd10d087c1950c5f025aeafc5351cc9665c"
+  integrity sha512-BtuqLJj1L5a8a4RmnX5YjrGhiEfn7LTdQgn2m71F8DnMCwvvYLHQgYUcpjobMld1OZr3IKq4/zCqesaGET++fQ==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+    "@storybook/instrumenter" "8.6.10"
+    "@storybook/test" "8.6.10"
+    polished "^4.2.2"
+    ts-dedent "^2.2.0"
+
 "@storybook/addon-measure@8.6.8":
   version "8.6.8"
   resolved "https://registry.npmjs.org/@storybook/addon-measure/-/addon-measure-8.6.8.tgz"
@@ -806,6 +817,13 @@
   version "8.6.8"
   resolved "https://registry.npmjs.org/@storybook/addon-viewport/-/addon-viewport-8.6.8.tgz"
   integrity sha512-SWhuPBYkZi5ReMvXfE+qu+trydkXz83XqDwjC8cCa/yi2SjQFxcJC66paHjPM+3SNIShVZhw3gnB9mbzZ4Yohg==
+  dependencies:
+    memoizerific "^1.11.3"
+
+"@storybook/addon-viewport@^8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-8.6.10.tgz#02931415c162a4a6132ccdc3daf4f73705ab5932"
+  integrity sha512-0ATxfA+bHpTcdTUc83VVJF3XPJqe64Yl1I9UWnx/XG2gzo8avRA44pQe8ETH5Fwr7kAvDMqW6LXAisfsl20wrg==
   dependencies:
     memoizerific "^1.11.3"
 
@@ -885,6 +903,14 @@
   resolved "https://registry.npmjs.org/@storybook/icons/-/icons-1.4.0.tgz"
   integrity sha512-Td73IeJxOyalzvjQL+JXx72jlIYHgs+REaHiREOqfpo3A2AYYG71AUbcv+lg7mEDIweKVCxsMQ0UKo634c8XeA==
 
+"@storybook/instrumenter@8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-8.6.10.tgz#a30e9c97bf5a01f1ff1ed19af07eb64efa947943"
+  integrity sha512-Hlps6V0lkhFMbgcJQRynVBne51ciG7Xv+YtiDCd0PQtvZu8+vVJr/ebWt3nCwpvkRHooYiud1ScA3K8McyA73w==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+    "@vitest/utils" "^2.1.1"
+
 "@storybook/instrumenter@8.6.8":
   version "8.6.8"
   resolved "https://registry.npmjs.org/@storybook/instrumenter/-/instrumenter-8.6.8.tgz"
@@ -942,6 +968,19 @@
     "@storybook/preview-api" "8.6.8"
     "@storybook/react-dom-shim" "8.6.8"
     "@storybook/theming" "8.6.8"
+
+"@storybook/test@8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/test/-/test-8.6.10.tgz#8b8cef4c6158e30943c2d02956c83870b2294659"
+  integrity sha512-eCQueRB0SpwjnXcE5wmUNu2G7Z7nRzzHw+0QW2Yc3DoA5UwmOiuwTseZenQkD019dwvFJ87fHo1xXnDAamX1Tg==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+    "@storybook/instrumenter" "8.6.10"
+    "@testing-library/dom" "10.4.0"
+    "@testing-library/jest-dom" "6.5.0"
+    "@testing-library/user-event" "14.5.2"
+    "@vitest/expect" "2.0.5"
+    "@vitest/spy" "2.0.5"
 
 "@storybook/test@8.6.8":
   version "8.6.8"

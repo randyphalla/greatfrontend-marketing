@@ -11,6 +11,7 @@ const config: StorybookConfig = {
     "@chromatic-com/storybook",
     "@storybook/experimental-addon-test",
     "@storybook/addon-a11y",
+    "@storybook/addon-viewport",
   ],
   "framework": {
     "name": "@storybook/react-vite",

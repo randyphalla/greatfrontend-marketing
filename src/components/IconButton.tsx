@@ -6,6 +6,7 @@ interface IconButtonProps {
   icon: string | TrustedHTML; // React.ReactNode
 }
 
+// TODO: https://www.greatfrontend.com/projects/challenges/button-component
 const IconButton = (props: IconButtonProps) => {
   const { ariaLabel, href, icon } = props;
 

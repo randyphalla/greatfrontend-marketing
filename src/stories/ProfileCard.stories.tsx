@@ -47,7 +47,6 @@ export const Default: Story = {
     position: "Front End Engineer",
     company: "Microsoft",
     description: "I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.",
-    buttonText: "Contact me",
     onClick: testOnClick,
     socialLinks: SocialLinks,
   },
