@@ -21,7 +21,7 @@
 - [Hero Section]() - WIP
 
 ## Icons
-- https://remixicon.com/icon/github-fill
+- https://remixicon.com/
 
 ## Problem
 

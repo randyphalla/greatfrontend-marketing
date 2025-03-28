@@ -19,7 +19,7 @@ const HeroSection = () => {
               Learn more
             </button>
             <button
-              className="min-w-[151.5px] tablet:min-w-[213px] desktop:min-w-[175.5px] py-3 tablet:py-4 px-3 tablet:text-lg text-white bg-indigo-900 rounded-sm my-drop-shadow cursor-pointer outline-royal-blue hover:bg-indigo-800 focus:bg-indigo-800 focus:outline-4 disabled:bg-neutral-100 disabled:text-neutral-400"
+              className="min-w-[151.5px] tablet:min-w-[213px] desktop:min-w-[175.5px] py-3 tablet:py-4 px-3 tablet:text-lg text-white bg-indigo-700 rounded-sm my-drop-shadow cursor-pointer outline-royal-blue hover:bg-indigo-800 focus:bg-indigo-800 focus:outline-4 disabled:bg-neutral-100 disabled:text-neutral-400"
               type="button"
             >
               See pricing

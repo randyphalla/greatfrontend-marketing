@@ -12,6 +12,7 @@ const config: StorybookConfig = {
     "@storybook/experimental-addon-test",
     "@storybook/addon-a11y",
     "@storybook/addon-viewport",
+    "storybook-addon-pseudo-states",
   ],
   "framework": {
     "name": "@storybook/react-vite",
