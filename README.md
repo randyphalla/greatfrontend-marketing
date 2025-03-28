@@ -15,10 +15,12 @@
 - https://greatfrontend-marketing.vercel.app/
 
 ## Components
-- [Testimonial Card](https://github.com/randyphalla/greatfrontend-testimonial-card)
+- [Testimonial Card](https://greatfrontend-marketing.vercel.app/?path=/story/components-testimonial-card--default)
 - [Blog Card](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-blog-card--default)
 - [Profile Card](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-profile-card--default)
-- [Hero Section]() - WIP
+- [Hero Section (Simple)](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-hero-section--default)
+- [Hero Section (Feature Bullets)](http://localhost:6006/iframe.html?globals=&args=&id=components-hero-section--feature-bullets)
+- [Button](https://greatfrontend-marketing.vercel.app/?path=/story/components-button--default)
 
 ## Icons
 - https://remixicon.com/
