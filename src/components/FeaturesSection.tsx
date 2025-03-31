@@ -28,7 +28,7 @@ export const FeatureSectionListItem = (props: FeatureSectionListItemProps) => {
 
   return (
     <div className="flex justify-start items-start">
-      <div className="flex justify-center items-center bg-white size-12 text-indigo-700 rounded-full drop-shadow">{icon}</div>
+      <div className="flex justify-center items-center bg-white min-w-12 min-h-12 text-indigo-700 rounded-full drop-shadow">{icon}</div>
       <div className="pl-4 md:pl-5 pt-3 pb-3">
         <h5 className="text-lg font-semibold text-neutral-900">{title}</h5>
         <p className="mt-3 font-normal text-base text-neutral-600">{paragraph}</p>
@@ -41,7 +41,7 @@ export const FeatureSectionGridListItem = (props: FeatureSectionListItemProps) =
   const { icon, title, paragraph } = props;
   return (
     <div className="flex justify-center items-center flex-col text-center">
-      <div className="flex justify-center items-center bg-white size-12 text-indigo-700 rounded-full drop-shadow">{icon}</div>
+      <div className="flex justify-center items-center min-w-12 min-h-12 text-indigo-700 rounded-full drop-shadow bg-white">{icon}</div>
       <h5 className="mt-5 mb-2 text-xl font-semibold text-neutral-900">{title}</h5>
       <p className="font-normal text-base text-neutral-600">{paragraph}</p>
     </div>
