@@ -1,3 +1,4 @@
+
 # GreatFrontEnd Projects - Marketing
 > Built with React, Tailwind CSS, Storybook and Vite
 
@@ -21,7 +22,7 @@
 - [x] [Hero Section (Feature Bullets)](https://greatfrontend-marketing.vercel.app/?path=/story/components-hero-section--feature-bullets)
 - [x] [Features Section (Side image) - Left](https://greatfrontend-marketing.vercel.app/?path=/story/components-features-section--left)
 - [x] [Features Section (Side image) - Right](https://greatfrontend-marketing.vercel.app/?path=/story/components-features-section--right)
-- [] [Features Section (Grid)]()
+- [x] [Features Section (Grid)](https://greatfrontend-marketing.vercel.app/?path=/story/components-features-section--grid)
 - [] [Pricing Section (Single)]()
 - [] [Pricing Section (Tiers)]()
 - [] [Statistics Section]()
@@ -50,3 +51,20 @@
 
 https://github.com/storybookjs/storybook/issues/20876#issuecomment-1542668305
 - If storybook is not running, remove `.pnp.js` from your home directory
+
+## Mock-up without figma file
+
+```
+// import imageMobile from '../assets/designs/FeaturesSection-Grid/Mobile.jpg';
+// import imageTablet from '../assets/designs/FeaturesSection-Grid/Tablet.jpg';
+// import imageDesktop from '../assets/designs/FeaturesSection-Grid/Desktop.jpg';
+
+<>
+  ....
+  {/* Mockup */}
+  <div
+    className="absolute top-0 left-0 right-0 mx-auto h-[1000px] desktop:h-[850px] w-[375px] tablet:w-[768px] desktop:w-[1440px] bg-cover bg-no-repeat bg-left-top z-[1] opacity-[0.2]"
+    style={{ backgroundImage: `url(${imageDesktop})` }}
+  />
+<>
+```

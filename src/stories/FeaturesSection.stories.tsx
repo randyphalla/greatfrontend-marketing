@@ -22,7 +22,7 @@ export const Default: Story = {
     variant: "left",
     imgSrc: FeatureSectionLeftImage,
     imgAlt: "A vibrant wall featuring a blue, orange, and red color scheme, creating a lively and dynamic visual effect.",
-    children: <>
+    listChildren: <>
       <FeatureSectionListItem
         icon={
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"><path d="M15.5018 20.0048C14.8432 21.5841 13.5794 22.848 12 23.5066C10.4206 22.848 9.15679 21.5841 8.49816 20.0048H10.7575C11.0838 20.4934 11.5051 20.9171 12 21.248C12.4949 20.9171 12.9162 20.4934 13.2425 20.0048H15.5018ZM18 14.8095L20 17.0777V19.0048H4V17.0777L6 14.8095V9.00478C6 5.52153 8.50442 2.55822 12 1.45999C15.4956 2.55822 18 5.52153 18 9.00478V14.8095ZM17.2692 17.0048L16 15.5653V9.00478C16 6.68694 14.4292 4.57431 12 3.58384C9.57078 4.57431 8 6.68694 8 9.00478V15.5653L6.73076 17.0048H17.2692ZM12 11.0048C10.8954 11.0048 10 10.1093 10 9.00478C10 7.90021 10.8954 7.00478 12 7.00478C13.1046 7.00478 14 7.90021 14 9.00478C14 10.1093 13.1046 11.0048 12 11.0048Z"></path></svg>
@@ -44,7 +44,7 @@ export const Default: Story = {
         title="Royalty-free licensing"
         paragraph="Our straightforward, royalty-free licensing means your chosen images are yours to innovate with, without the hassle of negotiating usage rights for every new project."
       />
-    </>
+    </>,
   },
 };
 
@@ -62,7 +62,7 @@ export const Right: Story = {
     variant: "right",
     imgSrc: FeatureSectionRightImage,
     imgAlt: "A 3D rendering of a glass tube featuring a gradient of blue and purple colors.",
-    children: <>
+    listChildren: <>
       <FeatureSectionListItem
         icon={
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"><path d="M4 5V19H20V5H4ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM7.5 11.25H9.5V9H11V15H9.5V12.75H7.5V15H6V9H7.5V11.25ZM14.5 10.5V13.5H16C16.2761 13.5 16.5 13.2761 16.5 13V11C16.5 10.7239 16.2761 10.5 16 10.5H14.5ZM13 9H16C17.1046 9 18 9.89543 18 11V13C18 14.1046 17.1046 15 16 15H13V9Z"></path></svg>
@@ -84,6 +84,16 @@ export const Right: Story = {
         title="Portrait or landscape"
         paragraph="Effortlessly adapt your images for any platform - whether it's a stunning wallpaper or captivating Instagram reels and stories."
       />
-    </>
+    </>,
+  },
+};
+
+export const Grid: Story = {
+  args: {
+    text: "Premium abstract images",
+    title: "Easy access to top quality images",
+    body: "In a world where storytelling constantly evolves, we lead with groundbreaking images designed for your presentation excellence.",
+    variant: "grid",
+    gridListChildren: <></>,
   },
 };

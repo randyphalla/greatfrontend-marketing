@@ -25,8 +25,8 @@ const HeroSection = (props: HeroSectionProps) => {
           {body && <p className="mt-4 tablet:mt-6 mb-8 tablet:mb-16 tablet:max-w-[540px] desktop:max-w-full tablet:font-base text-lg tablet:text-xl text-neutral-600">{body}</p>}
           {(featureBullets && featureBullets.length > 0) && (
             <ul className="mt-8 tablet:mt-16 mb-8 tablet:mb-16 flex flex-col gap-5">
-              {featureBullets?.map((f: FeatureBullet) => (
-                <li className="flex justify-start items-center text-lg font-normal text-neutral-600">
+              {featureBullets?.map((f: FeatureBullet, index: number) => (
+                <li className="flex justify-start items-center text-lg font-normal text-neutral-600" key={index+1}>
                   <div
                     className="mr-3 size-6 bg-indigo-50 rounded-full text-indigo-500"
                     dangerouslySetInnerHTML={{ __html: f.svg }}
