@@ -11,16 +11,37 @@
 - `yarn build-storybook` | build storybook
 
 ## Hosting
-
 - https://greatfrontend-marketing.vercel.app/
 
-## Components
-- [Testimonial Card](https://greatfrontend-marketing.vercel.app/?path=/story/components-testimonial-card--default)
-- [Blog Card](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-blog-card--default)
-- [Profile Card](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-profile-card--default)
-- [Hero Section (Simple)](https://greatfrontend-marketing.vercel.app/iframe.html?globals=&args=&id=components-hero-section--default)
-- [Hero Section (Feature Bullets)](http://localhost:6006/iframe.html?globals=&args=&id=components-hero-section--feature-bullets)
-- [Button](https://greatfrontend-marketing.vercel.app/?path=/story/components-button--default)
+## Marketing (Components)
+- [x] [Testimonial Card](https://greatfrontend-marketing.vercel.app/?path=/story/components-testimonial-card--default)
+- [x] [Blog Card](https://greatfrontend-marketing.vercel.app/?path=/story/components-blog-card--default)
+- [x] [Profile Card](https://greatfrontend-marketing.vercel.app/?path=/story/components-profile-card--default)
+- [x] [Hero Section (Simple)](https://greatfrontend-marketing.vercel.app/?path=/story/components-hero-section--simple)
+- [x] [Hero Section (Feature Bullets)](https://greatfrontend-marketing.vercel.app/?path=/story/components-hero-section--feature-bullets)
+- [x] [Features Section (Side image) - Left](https://greatfrontend-marketing.vercel.app/?path=/story/components-features-section--left)
+- [x] [Features Section (Side image) - Right](https://greatfrontend-marketing.vercel.app/?path=/story/components-features-section--right)
+- [] [Features Section (Grid)]()
+- [] [Pricing Section (Single)]()
+- [] [Pricing Section (Tiers)]()
+- [] [Statistics Section]()
+- [] [Contact Section]()
+- [] [Team Section]()
+- [] [404 Section]()
+- [] [FAQ Section]()
+- [] [Testimonials Section]()
+- [] [Logo Marquee Section]()
+- [] [Cookie Consent]()
+- [] [Footer Section]()
+- [] [Marketing Landing Page]()
+- [] [Features Page]()
+- [] [Pricing Page]()
+- [] [About Us Page]()
+- [] [Contact Us Page]()
+- [] [Marketing Website]()
+
+## Design System
+- [x] [Button](https://greatfrontend-marketing.vercel.app/?path=/story/components-button--default)
 
 ## Icons
 - https://remixicon.com/

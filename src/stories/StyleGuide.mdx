@@ -6,42 +6,46 @@ import { Meta } from "@storybook/blocks";
   <h1>Style guide (WIP)</h1>
   <h2>Device breakpoints</h2>
   <table>
-    <tr>
-      <th>Device breakpoint</th>
-      <th>Width</th>
-      <th>Container max width</th>
-      <th>Side padding</th>
-      <th>Columns</th>
-      <th>Column gap</th>
-      <th>Tailwind class</th>
-    </tr>
-    <tr>
-      <td>Desktop</td>
-      <td>1440px</td>
-      <td>1280px</td>
-      <td>32px</td>
-      <td>12</td>
-      <td>32px</td>
-      <td>`desktop`</td>
-    </tr>
-    <tr>
-      <td>Tablet</td>
-      <td>768px</td>
-      <td>100</td>
-      <td>32px</td>
-      <td>6</td>
-      <td>32px</td>
-      <td>`tablet`</td>
-    </tr>
-    <tr>
-      <td>Mobile</td>
-      <td>375px</td>
-      <td>100%</td>
-      <td>16px</td>
-      <td>4</td>
-      <td>16px</td>
-      <td></td>
-    </tr>
+    <thead>
+      <tr>
+        <th>Device breakpoint</th>
+        <th>Width</th>
+        <th>Container max width</th>
+        <th>Side padding</th>
+        <th>Columns</th>
+        <th>Column gap</th>
+        <th>Tailwind class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Desktop</td>
+        <td>1440px</td>
+        <td>1280px</td>
+        <td>32px</td>
+        <td>12</td>
+        <td>32px</td>
+        <td>`desktop`</td>
+      </tr>
+      <tr>
+        <td>Tablet</td>
+        <td>768px</td>
+        <td>100</td>
+        <td>32px</td>
+        <td>6</td>
+        <td>32px</td>
+        <td>`tablet`</td>
+      </tr>
+      <tr>
+        <td>Mobile</td>
+        <td>375px</td>
+        <td>100%</td>
+        <td>16px</td>
+        <td>4</td>
+        <td>16px</td>
+        <td></td>
+      </tr>
+    </tbody>
   </table>
 
   <h2>Spacing</h2>
@@ -52,48 +56,95 @@ import { Meta } from "@storybook/blocks";
 
   <h3>Font weights</h3>
   <table>
-    <tr>
-      <th>Weight</th>
-      <th>Name</th>
-      <th>Tailwind class</th>
-      <th>Commonly used for</th>
-    </tr>
-    <tr>
-      <td>400</td>
-      <td>Normal</td>
-      <td>`font-normal`</td>
-      <td>Body</td>
-    </tr>
-    <tr>
-      <td>500</td>
-      <td>Meidum</td>
-      <td>`font-medium`</td>
-      <td>Buttons, labels, links, and other interactive elements</td>
-    </tr>
-    <tr>
-      <td>600</td>
-      <td>Semibold</td>
-      <td>`font-semibold`</td>
-      <td>Headings</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>Weight</th>
+        <th>Name</th>
+        <th>Tailwind class</th>
+        <th>Commonly used for</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>400</td>
+        <td>Normal</td>
+        <td>`font-normal`</td>
+        <td>Body</td>
+      </tr>
+      <tr>
+        <td>500</td>
+        <td>Meidum</td>
+        <td>`font-medium`</td>
+        <td>Buttons, labels, links, and other interactive elements</td>
+      </tr>
+      <tr>
+        <td>600</td>
+        <td>Semibold</td>
+        <td>`font-semibold`</td>
+        <td>Headings</td>
+      </tr>
+    </tbody>
   </table>
 
-
   <h3>Font sizes/line heights</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size/Height</th>
+        <th>Tailwind class</th>
+        <th>Commonly used for</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>xs</td>
+        <td>12px/16px</td>
+        <td>`text-xs`</td>
+        <td>Badge labels</td>
+      </tr>
+      <tr>
+        <td>sm</td>
+        <td>14px/20px</td>
+        <td>`text-xm`</td>
+        <td>Badge labels, Form labels, Form placeholders, Form hint text</td>
+      </tr>
+      <tr>
+        <td>base</td>
+        <td>16px/24px</td>
+        <td>`text-base`</td>
+        <td>Body, Section labels, Button labels</td>
+      </tr>
+      <tr>
+        <td>lg</td>
+        <td>18px/28px</td>
+        <td>`text-lg`</td>
+        <td>Button labels</td>
+      </tr>
+      {/* TODO: add the remaining list */}
+    </tbody>
+  </table>
 
   <h2>Icons</h2>
+  - https://remixicon.com/
 
   <h2>Color palette</h2>
+  {/* TODO: add the remaining list */}
 
   <h3>Text colors</h3>
+  {/* TODO: add the remaining list */}
 
   <h3>Background colors</h3>
+  {/* TODO: add the remaining list */}
 
   <h3>Line colors (border/rings)</h3>
+  {/* TODO: add the remaining list */}
 
   <h3>Icon colors</h3>
+  {/* TODO: add the remaining list */}
 
   <h3>Input field, Form, Textarea colors</h3>
+  {/* TODO: add the remaining list */}
 </div>
 
 <style>

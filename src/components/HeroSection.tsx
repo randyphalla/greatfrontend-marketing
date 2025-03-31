@@ -28,7 +28,7 @@ const HeroSection = (props: HeroSectionProps) => {
               {featureBullets?.map((f: FeatureBullet) => (
                 <li className="flex justify-start items-center text-lg font-normal text-neutral-600">
                   <div
-                    className="mr-3 size-6 bg-indigo-50 rounded-full text-indigo-700"
+                    className="mr-3 size-6 bg-indigo-50 rounded-full text-indigo-500"
                     dangerouslySetInnerHTML={{ __html: f.svg }}
                   />
                   {f.text}
